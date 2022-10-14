@@ -1,0 +1,36 @@
+.pagination .first, .pagination .last {
+    font-size: 22px;
+    line-height: 1.55;
+}
+.pagination .first.disabled, .pagination .last.disabled {
+    color: #dccfe5;
+}
+.pagination a.active {
+    font-weight: 600;
+}
+.pagination .page.active {
+    border-bottom: 3px solid #f1cb14;
+}
+.pagination .first {
+    margin-right: 9px;
+}
+.pagination .last {
+    margin-left: 9px;
+}
+.pagination .page {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .pagination .first {
+        margin-right: 35px;
+    }
+    .pagination .last {
+        margin-left: 35px;
+    }
+    .pagination .page {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

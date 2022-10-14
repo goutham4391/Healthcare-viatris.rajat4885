@@ -1,0 +1,72 @@
+.field-data-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: start;
+    line-height: 1.5;
+}
+.field-data-link .sub-info {
+    display: block;
+    font-size: 14px;
+    padding-top: 6px;
+}
+.field-data-link .fa {
+    margin: auto 20px auto 0;
+    color: #523186;
+    line-height: 1.5;
+}
+.ct-documents .field-teaser-copy {
+    margin-top: 15px;
+}
+.ct-documents .field-cta {
+    margin-top: 25px;
+}
+.ct-investors .field-headline {
+    margin-bottom: 30px;
+}
+
+.sub-past-event .field-data-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sub-past-event .fa {
+    margin: auto 10px auto 0;
+}
+.back2Top {
+    /*display: none;
+    position: fixed;
+    right: 15px;
+    top: 25%;
+    transform: translateY(-25%);*/
+    text-align: right;    
+    padding: 0 0 15px;
+}
+#back2Top {
+    padding-bottom: 0;
+}
+@media only screen and (min-width: 768px) {
+    .field-data-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 1.55;
+    }
+    .field-data-link .sub-info {
+        font-size: 20px;
+    }
+    .field-data-link .fa {
+        margin-right: 30px;
+    }
+    .ct-investors .field-data-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .ct-investors .field-headline {
+        margin-bottom: 30px;
+    }
+    .sub-past-event .field-data-link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

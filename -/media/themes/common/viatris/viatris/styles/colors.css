@@ -1,0 +1,206 @@
+:root {
+    --white: #fff;
+    --primary: #703e97;
+    --secondary: #2a276e;
+    --tertiary: #f6f6f6;
+    --divider-primary: #8e04ff;
+    --divider-secondary: #f1cb14;
+    --hover-primary: #b791c9;
+    --hover-secondary: #f1ecf6;
+    --hover-outline: #dccfe5;
+    --disabled: #c9c3d8;
+    --disabled-outline: #9493b6;
+    --nav-link: #2a276e;
+    --nav-link-hover: #f1cb14;
+    --back-link: #664f9e;
+    --back-link-hover: #b99ecc;
+    --black: #000;
+}
+.bc-primary {
+    background-color: var(--primary);
+    color: var(--white);
+    background-color: #703e97;
+    color: #fff;
+}
+.bg-yellow {
+    background-color: #EFC916;
+    color: #0A0A0A;
+}
+.bg-orange {
+    background-color: #FFB72B;
+    color: #525252;
+}
+.bg-white {
+    background-color: #FFF;
+    color: #2C2B6C;
+}
+.bc-secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+    background-color: #2a276e;
+    color: #fff;
+}
+.bc-tertiary {
+    background-color: var(--tertiary);
+    color: var(--black);
+}
+.bc-purple {
+    background: #703E96 0% 0% no-repeat padding-box;
+}
+.bc-white {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.cta-primary a, .cta-secondary a {
+    background-color: var(--primary);
+    color: var(--white);
+    background-color: #703e97;
+    color: #fff;
+}
+.cta-primary:hover a {
+    color: var(--white);
+    color: #fff;
+}
+.cta-primary:hover a, .cta-secondary:hover a {
+    background-color: var(--hover-primary);
+    background-color: #b791c9;
+}
+.cta-primary.disabled a, .cta-secondary.disabled a {
+    background-color: var(--disabled);
+}
+.bc-primary .cta-primary a, .bc-primary .cta-secondary a {
+    background-color: var(--white);
+    color: var(--primary);
+}
+.bc-primary .cta-primary:hover a, .bc-primary .cta-secondary:hover a {
+    background-color: var(--hover-secondary);
+}
+.bc-primary .cta-primary.disabled a, .bc-primary .cta-secondary.disabled a {
+    background-color: var(--white);
+    color: var(--disabled);
+}
+.cta-secondary a {
+    background-color: var(--white);
+    color: var(--primary);
+    background-color: #fff;
+    color: #703e97;
+}
+.cta-secondary:hover a {
+    background-color: var(--hover-secondary);
+    background-color: #f1ecf6;
+}
+.cta-secondary.disabled a {
+    color: var(--disabled);
+}
+.cta-outline a {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+.cta-outline:hover a {
+    border: 2px solid var(--hover-primary);
+    color: var(--hover-primary);
+}
+.cta-outline.disabled a {
+    border: 2px solid var(--disabled);
+    color: var(--disabled);
+}
+.cta-outline-secondary a {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.cta-outline-secondary:hover a {
+    border: 2px solid var(--hover-primary);
+    color: var(--hover-primary);
+}
+.cta-outline-secondary.disabled a {
+    border: 2px solid var(--disabled);
+    color: var(--disabled);
+}
+.bc-primary .cta-outline a, .bc-secondary .cta-outline a {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+.bc-primary .cta-outline:hover a, .bc-secondary .cta-outline:hover a {
+    border: 2px solid var(--hover-outline);
+    color: var(--hover-outline);
+}
+.bc-primary .cta-outline.disabled a, .bc-secondary .cta-outline.disabled a {
+    border: 2px solid var(--disabled-outline);
+    color: var(--disabled-outline);
+}
+.cta-link a {
+    color: var(--primary);
+}
+.cta-link:hover a {
+    color: var(--hover-primary);
+}
+.cta-link.disabled a {
+    color: var(--disabled);
+}
+.bc-primary .cta-link a, .bc-secondary .cta-link a {
+    color: var(--white);
+}
+.bc-primary .cta-link:hover a, .bc-secondary .cta-link:hover a {
+    color: var(--hover-primary);
+}
+.bc-primary .cta-link.disabled a, .bc-secondary .cta-link.disabled a {
+    color: var(--disabled);
+}
+
+.quick-link a {
+    color: var(--primary);
+}
+.quick-link:hover a {
+    color: var(--hover-primary);
+}
+.quick-link.disabled a {
+    color: var(--disabled);
+}
+.bc-primary .quick-link a, .bc-secondary .quick-link a {
+    color: var(--white);
+}
+.bc-primary .quick-link:hover a, .bc-secondary .quick-link:hover a {
+    color: var(--hover-primary);
+}
+.bc-primary .quick-link.disabled a, .bc-secondary .quick-link.disabled a {
+    color: var(--disabled);
+}
+.back-link a {
+    color: var(--back-link);
+}
+.back-link:hover a {
+    color: var(--back-link-hover);
+}
+.back-link.disabled a {
+    color: vra(--disabled);
+}
+.cta-btn-primary, .cta-btn-primary a {
+    background-color: var(--primary);
+    color: var(--white);
+}
+.cta-btn-secondary {
+    background-color: var(--white);
+    color: var(--primary);
+}
+.filter-btn.selected {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+.filter-btn.selected:hover {
+    background-color: var(--disabled-outline);
+    border-color: var(--disabled-outline);
+}
+.filter-btn.selected.disabled {
+    background-color: var(--disabled);
+    border-color: var(--disabled);
+}
+.bc-primary .cta-link a::after, .bc-secondary .cta-link a::after {
+    -webkit-filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(221deg) brightness(107%) contrast(101%);
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(221deg) brightness(107%) contrast(101%);
+}
+.bc-primary .cta-link:hover a::after, .bc-secondary .cta-link:hover a {
+    -webkit-filter: brightness(0) saturate(100%) invert(75%) sepia(71%) saturate(788%) hue-rotate(202deg) brightness(86%) contrast(80%);
+    filter: brightness(0) saturate(100%) invert(75%) sepia(71%) saturate(788%) hue-rotate(202deg) brightness(86%) contrast(80%);
+}

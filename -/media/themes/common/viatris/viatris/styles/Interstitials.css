@@ -1,0 +1,323 @@
+.cancel.close-button a {
+     background: url(../../../../../../../en/404.html) no-repeat;
+     width: 45px;
+     height: 42px;
+     border: none;
+     padding: 0px 0px !important;
+ }
+
+ #interstitial-overlay {
+     background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+     display: none;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 999;
+ }
+
+ .interstitial {
+     display: none;
+     left: 0;
+     position: fixed;
+     right: 0;
+     top: 10%;
+     bottom:auto;
+     z-index: 1004;
+     margin: 0 20px;
+     max-height: 500px;
+ }
+
+ .interstitial .window {
+     background: #fff;
+     height: 100%;
+     margin: 0 auto;
+     max-width: 100%;
+ }
+ .external-interstitial.interstitial .window{
+    max-width: 100%;
+ }
+ .interstitial .window{
+    padding-top: 50px;
+    padding-bottom: 50px
+ }
+ .interstitial .window .inner {
+     color: #333;
+     padding: 0 50px 0px;
+     box-sizing: border-box;
+     /*text-align:center;*/
+     display: block;
+     overflow: hidden;
+ }
+
+ .interstitial .window .inner {
+     position: relative;
+ }
+
+ .interstitial .left {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     z-index: 99;
+ }
+
+ .interstitial .right {
+     display: block;
+     float: none;
+ }
+
+ .interstitial .window h2 {
+     color: #000;
+     font-size: 36px;
+     padding-bottom: 0px;
+     /*text-align: center;*/
+     text-align: left;
+     font-weight: 300;
+     margin: auto;
+     line-height: 48px;
+ }
+
+ .interstitial .window .caption p, .interstitial .window .caption {
+     color: #000;
+     font-size: 20px;
+     line-height: 1.5;
+     margin: 15px 0 0;
+     /*text-align: center;*/
+     font-weight: 400;
+     text-align: left;
+ }
+ .interstitial .window .caption{
+    margin-top: 15px;
+ }
+
+ .interstitial .continue,
+ .interstitial .cancel {
+     display: inline-block;
+     margin-top: 25px;
+ }
+ .interstitial .continue{
+    margin-right:50px;
+ }
+  .interstitial.local-markets .cancel,
+  .interstitial.hcp .cancel,
+  .interstitial.corporate .cancel  {
+    margin-right: 50px;
+ }
+
+ .interstitial .continue a, .interstitial .cancel a{
+    padding: 10px 18px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.57;
+    cursor: pointer;
+    background: #703E97;
+    color: #fff;
+ }
+ .interstitial .continue a:hover, .interstitial .cancel a:hover{
+    background: #b791c9;
+ }
+.interstitial-exit-icon {
+     background: #703E97 none repeat scroll 0 0;
+     border-radius: 30px;
+     color: #fff;
+     cursor: pointer;
+     display: inline-block;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+     line-height: 6px;
+     margin-right: -24px;
+     margin-top: -75px;
+     padding: 9px 4px;
+ }
+
+ .interstitial-exit-icon::before {
+     content: "×";
+ } 
+ .external-interstitial.interstitial .window .inner .left{
+    display: none;
+ }
+ .interstitial .window .inner .right .caption::-webkit-scrollbar{
+    width: 5px;
+}
+.interstitial .window .inner .right .caption::-webkit-scrollbar-track {
+    background: #703E97; 
+}
+.interstitial .window .inner .right .caption::-webkit-scrollbar-thumb {
+    background: #b791c9; 
+    border-radius: 5px;
+}
+ @media (max-width: 767px) {
+    .interstitial .window{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .interstitial .window .inner {
+        padding: 0px 20px 0px;        
+    }
+   /* .interstitial .window .inner .right{
+        overflow-y: auto;
+        max-height: 85vh;
+        padding-right: 10px;
+    }*/
+    .interstitial .window .inner .right .caption{
+        overflow-y: auto;
+        max-height: 40vh;
+        padding-right: 10px;
+    }
+     .interstitial .window .inner .left {
+         display: block;
+         float: none;
+         width: auto;
+     }
+     .interstitial .window h2 {
+         font-size: 28px;
+         padding-bottom: 0px;
+         font-weight: 300;
+         line-height: 1.3
+     }
+     .interstitial .window .caption p {
+         font-size: 14px;
+         margin-bottom: 10px;
+     }
+     .interstitial .continue a, .interstitial .cancel a{
+        font-size: 14px;
+     }
+     .interstitial{
+        top:4%;
+        bottom: auto;
+     }
+     .interstitial .continue{
+        margin-right:25px;
+     }
+      .interstitial.local-markets .cancel,
+      .interstitial.hcp .cancel {
+        margin-right: 25px;
+     }
+     .external-interstitial.interstitial .window {
+        /*overflow: scroll;
+        max-height: 90vh;*/
+    }
+ }
+ @media (min-width: 992px){
+    .interstitial{
+        margin:0 50px;
+    }
+    .interstitial .window .inner{
+        /*overflow-y: scroll;
+        max-height: 65vh;*/
+    }
+    /*.interstitial .window .inner .right{
+        overflow-y: auto;
+        max-height: 53vh;
+        padding-right: 10px;
+    }*/
+    .interstitial .window .inner .right .caption{
+        overflow-y: auto;
+        max-height: 30vh;
+        padding-right: 10px;
+    }    
+ }
+ @media (min-width: 1200px){
+    .interstitial .window{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .interstitial .window .inner{
+        padding:0 80px 0px;
+    }
+    .interstitial{
+        margin:0 100px;
+    }
+    .interstitial .window .caption{
+        margin-top: 25px;
+     }
+     .interstitial .window .caption p, .interstitial .window .caption{
+        font-size: 20px;
+     }
+ }
+ @media (min-width: 1366px){
+    .interstitial .window{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .interstitial .window .inner{
+        padding: 0 100px 0px;
+    }
+    .interstitial{
+        margin:0 125px;
+    }
+ } 
+ @media (min-width: 1440px){
+    .interstitial .window{
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .interstitial .window .inner{
+        padding:0 125px 0px;
+    }
+ } 
+
+
+/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .interstitial .window .inner .right{
+         margin-right: -10px;
+        scrollbar-base-color: #703E97;
+        -ms-scrollbar-base-color: #703E97;
+        scrollbar-face-color: #703E97;
+        -ms-scrollbar-face-color: #703E97;
+        scrollbar-3dlight-color: #703E97;
+        -ms-scrollbar-3dlight-color: #703E97;
+        scrollbar-highlight-color: #703E97;
+        -ms-scrollbar-highlight-color: #703E97;
+        scrollbar-track-color: #703E97;
+        -ms-scrollbar-track-color: #703E97;
+        scrollbar-arrow-color: #703E97;
+        -ms-scrollbar-track-color: #703E97;
+        scrollbar-shadow-color: #703E97;
+        -ms-scrollbar-shadow-color: #703E97;
+        scrollbar-shadow-color: #703E97;
+        -ms-scrollbar-shadow-color: #703E97;
+        scrollbar-dark-shadow-color: #703E97;
+        -ms-scrollbar-dark-shadow-color: #703E97;
+    }
+    .interstitial .window .inner .right:after {
+        content: "";
+        height: 32px;
+        display: block;
+    }
+}
+@supports (-ms-ime-align:auto)  {
+    .interstitial .window .inner .right {
+            margin-right: -10px;
+            scrollbar-base-color: #703E97;
+        -ms-scrollbar-base-color: #703E97;
+        scrollbar-face-color: #703E97;
+        -ms-scrollbar-face-color: #703E97;
+        scrollbar-3dlight-color: #703E97;
+        -ms-scrollbar-3dlight-color: #703E97;
+        scrollbar-highlight-color: #703E97;
+        -ms-scrollbar-highlight-color: #703E97;
+        scrollbar-track-color: #703E97;
+        -ms-scrollbar-track-color: #703E97;
+        scrollbar-arrow-color: #703E97;
+        -ms-scrollbar-track-color: #703E97;
+        scrollbar-shadow-color: #703E97;
+        -ms-scrollbar-shadow-color: #703E97;
+        scrollbar-shadow-color: #703E97;
+        -ms-scrollbar-shadow-color: #703E97;
+        scrollbar-dark-shadow-color: #703E97;
+        -ms-scrollbar-dark-shadow-color: #703E97;
+    }
+      
+    .interstitial .window .inner .right:after {
+        content: "";
+        height: 16px;
+        display: block;
+    }
+}*/

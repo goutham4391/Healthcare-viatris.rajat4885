@@ -1,0 +1,130 @@
+.ct-photos .row-photos .bio-snippet, .ct-people .bio-snippet {
+    margin-top: 50px;
+}
+.ct-photos .row-photos {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+}
+.row-photos .field-name {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: normal;        
+}
+.bio-teaser .field-name {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: normal;
+    margin-top: 15px;
+}
+.bio-snippet h6.field-name{
+    font-size: 36px;
+    color: #2A276E;
+    margin-top: 0;
+}
+.bio-teaser .field-bio-intro {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: normal;
+    margin: 10px 0;
+}
+.bio-teaser {
+   /* padding-top: 30px;
+    padding-bottom: 30px;*/
+}
+.bio-snippet .field-name {
+    margin-top: 15px;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+}
+.bio-snippet .field-title{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+}
+.bio-div{
+    margin:30px 0; 
+}
+.bio-teaser .field-title, .bio-detail .field-title{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.bio-teaser .bio-div{
+    margin:60px 0 0;
+}
+@media only screen and (max-width: 767px) {
+    .separator + .bio-teaser .bio-div:first-child{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    
+    .separator + .bio-teaser{
+        margin-top: -30px;
+    }
+    .ct-photos .row-photos .bio-snippet {
+        margin-top: 80px;
+       /* margin-bottom: 30px;*/
+    }
+    .ct-photos .row-photos {
+        margin-top: -30px;
+    }
+    /*.ct-people .bio-snippet {
+        margin-top: 0;
+    }*/
+    
+    .bio-teaser {
+       /* padding-top: 25px;
+        padding-bottom: 25px;*/
+    }
+    .bio-snippet .field-name {
+        margin-top: 10px;
+        color: #000;
+        font-weight: 300;
+    }  
+   
+    .bio-teaser .bio-div{
+        margin:80px 0 0;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+.row-photos .field-name {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.42;
+        letter-spacing: normal;        
+    }
+    .bio-teaser .field-name {
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1.33;
+        letter-spacing: normal;        
+        margin-top: 20px;
+    }
+    .bio-teaser .field-bio-intro {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: normal;        
+        margin: 15px 0;
+    }
+     .bio-snippet h6.field-name{
+        font-size: 58px;
+    }
+}
+@media only screen and (min-width: 1366px) {
+    .bio-teaser .bio-div{
+        margin:100px 0 0;
+    }
+    .ct-photos .row-photos .bio-snippet {
+        margin-top: 100px;
+       /* margin-bottom: 30px;*/
+    }
+}
+

@@ -1,0 +1,40 @@
+.alert-ribbon {
+    padding: 24px 0 22px;
+    background-color: #f5d946;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.alert-ribbon .field-alert {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.63;
+    color: #2a276e;
+}
+.alert-ribbon .field-cta {
+    margin-top: 0;
+}
+#ribbonAlert {
+    margin: 0;
+    padding: 0 10px;
+    color: #2a276e;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 21px;
+}
+#ribbonAlert:after {
+    display: none;
+}
+@media (min-width:768px) {
+    .alert-ribbon {
+        padding: 18px 0 16px;
+    }
+    .alert-ribbon .field-alert {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 2.22;
+    }
+}

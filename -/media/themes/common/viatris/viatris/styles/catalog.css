@@ -1,0 +1,543 @@
+.product-catalog h1.field-headline {
+    margin-top: 50px;
+}
+.product-catalog h2.field-headline {
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.search-wrap {
+    padding: 30px 15px;
+    position: relative;
+    margin-top: 60px;
+}
+.search-wrap .advanced-search-btn {
+    color: #6f4096;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.82;
+    padding-top: 15px;
+    text-align: right;
+    cursor: pointer;
+}
+.advanced-search-wrap .search-options {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    margin-top: 15px;
+}
+/* .advanced-search-wrap .dosage-option {
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+.dosage-option .checkbox-inline {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
+    vertical-align: middle;
+}
+.alpha-links-wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.alpha-links-wrap .indexchar {
+    /* display: inline-block; */
+    /* padding: 2px;
+    margin: 2px; */
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.82;
+}
+.product-search-results .result-item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.product-search-results .result-item > a {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.67;
+}
+.product-search-results .nav-top {
+    text-align: right;
+}
+.product-search-results-wrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.product-search-results-wrap .alpha-head {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.42;
+}
+
+@media only screen and (min-width: 768px) {
+    .search-wrap {
+        padding: 40px 25px;
+        margin-top: 50px;
+    }
+    .advanced-search-wrap .search-options {
+        padding: 40px 20px;
+    }
+
+    .alpha-links-wrap {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }    
+    .product-search-results .result-item > a {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.7;
+    }    
+}
+@media only screen and (min-width: 992px) {
+    .advanced-search-wrap .search-options .field-cta {
+        margin-top: 0;
+    }
+}
+
+
+.flex-list {
+    position: relative;
+    /* margin: 50px 0; */
+    overflow: hidden;
+}
+.flex-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -14px;
+}
+.flex-list li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .5em 0;
+    padding: 0 14px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+/*---------------- Country Product Details ----------------*/
+.product_detail_con .component .row .field-image {
+    margin-left: 0;
+}
+.product_detail_con .component h1.field-product-name {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+.product_detail_con .component .row h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 25px 0 5px;
+}
+/*.product_detail_con .component.breadcrumb + .component {
+    padding-top: 30px !important;
+}*/
+.separator.separator-product {
+    background: #ae97c5 0% 0% no-repeat padding-box;
+    width: 100%;
+    margin-bottom: 50px;
+}
+/*---------------- Product Catalog ----------------*/
+/*#advance-search .row.justify-content-end {
+    display: none;
+}*/
+.product-catalog #alpha-links {
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.component.product-catalog .search-wrap {
+    margin-top: 0;
+}
+.component.product-catalog .product-search-results-wrap .nav-top a {
+    font-weight: 600;
+}
+.component.product-catalog .search-wrap #autoCompleteResultsBox {
+    background: #f6f6f6;
+    padding: 0;
+}
+.component.product-catalog .search-wrap #autoCompleteResultsBox a {
+    display: block;
+    padding: 5px 20px;
+}
+.component.product-catalog .search-wrap #autoCompleteResultsBox a:hover {
+    background: #703e97;
+    color: #fff;
+}
+.component.results > .component-content > .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section.brand-links {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+section.brand-links h5 {
+    font-weight: 600;
+}
+.component.results > .component-content > .container h3 {
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+section.strength {
+    background: #f6f6f6;
+    padding: 15px;
+}
+section.wholesale-info {
+    background: #f6f6f6;
+    padding: 15px;
+}
+.component.results .left {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.component.results .right {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-left: 55px;
+}
+.component.results .right .legal-info > .resources-list {
+    font-size: 15px;
+}
+.component.results .right > .resources-list h3 {
+    margin-bottom: 20px;
+}
+.component.results .right > .legal-info .items {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ad96c4;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+.component.results .right .legal-info > .resources-list .items a.item {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    font-size: 15px;
+    line-height: 1.2;
+    min-height: 40px;
+    margin-bottom: 15px;
+}
+.component.results .right .legal-info > .resources-list .items a.item img {
+    max-width: 27px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.component.results .expander .pane .characteristics {
+    /*display: flex;*/
+    display: table;
+    width: 100%;
+}
+.component.results .expander .pane .characteristics .left {
+    /*-ms-flex: 0 0 40%;
+    flex: 0 0 40%;*/
+    max-width: 40%;
+    width: 40%;
+    float: left;
+}
+
+.component.results .expander .pane .characteristics .left .product-image {
+    text-align: center;
+}
+.component.results .expander .pane .characteristics .left .legal-text {
+    text-align: center;
+}
+.component.results .expander .pane .characteristics .right {
+    /*-ms-flex: 0 0 60%;
+    flex: 0 0 60%;*/
+    max-width: 60%;
+    width: 60%;
+    float: left;
+    padding-left: 15px;
+}
+.component.results .expander .pane .characteristics .right .item label {
+    font-weight: 600;
+}
+.component.results .row.grid-row .sub-result {
+    padding: 25px 0 25px;
+}
+.component.results .row.grid-row .col-12.col24-24 {
+    margin-bottom: 0;
+}
+.component.results section.title {
+    padding: 20px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #eeeeef 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeef 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#eeeeef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeef',GradientType=0 );
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.component.results section.title h2 {
+    display: inline;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+.component.results section.title .icons {
+    display: inline;
+}
+.component.results section.title .icons img {
+    width: 26px;
+    height: auto;
+}
+.component.results section.title .item {
+    font-weight: 600;
+}
+section.strength h3 {
+    font-weight: 600;
+}
+.component.results .expander .pane {
+    display: none;
+    padding: 15px 25px;   
+    font-size: 15px;    
+    background: #fff;
+}
+.component.results .expander {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;    
+    margin-top: 15px;
+}
+.component.results .expander .handle {
+    display: table;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    cursor: pointer;
+    background: #5c3089;
+    color: #fff;
+    font-size: 15px;    
+    border-radius: 3px;
+}
+.component.results .expander > .handle .right > .inner {
+    position: relative;
+}
+.component.results .expander > .handle .right .content {
+    padding: 0 60px 0 0;
+}
+.component.results .expander > .handle .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    height: 32px;
+    width: 32px;
+    background: url('../images/expand-white.png') no-repeat;
+}
+.component.results .expander.expanded > .handle .button {
+    background: url('../images/collapse-white.png') no-repeat;
+}
+.component.results .wholesale-info .expander > .handle .button {   
+    right: 25px;
+}
+.component.results .expander .handle .left {
+    display: table-cell;
+    width: 50%;
+    padding: 5px;
+    border-radius: 14px 0 0 8px;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.component.results .expander .handle .left .dosage {
+    font-weight: 600;
+}
+.component.results .expander .handle .right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding-left: 0;
+}
+.component.results .expander.expanded .pane {
+    display: block;
+}
+.component.results .wholesale-info .expander.expanded .pane {
+    background: #fff;
+}
+.component.results .expander .pane .heading h4 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.component.results .expander .pane .tabs {
+    padding-left: 0;
+    padding-top: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+.component.results .expander .pane .tabs .tab {
+    min-height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px 9%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    margin-bottom: -1px;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #eeeeef 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeef 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#eeeeef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeef',GradientType=0 );
+    cursor: pointer;
+}
+.component.results .expander .pane .tabs .tab.active {
+    background: #fff;
+}
+.component.results .expander .pane .TabUI .tab-content {
+    display: none;
+}
+.component.results .expander.expanded .pane .TabUI .tab-content.active {
+    display: block;
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid #e1e1e1;
+    border-top: 0;
+}
+.component.results .expander .pane .TabUI .tab-content .item {
+    display: inline-block;
+    padding: 10px 20px 10px 0;
+}
+.component.results .expander .pane .TabUI .tab-content .item label {
+    font-weight: 600;
+}
+.component.results .expander .pane .TabUI .tab-content .item .value {
+    font-size: 15px;
+}
+.component.results .expander.expanded .pane .wholesale.table {
+    text-align: center;
+    font-size: 15px;
+}
+.component.results .expander.expanded .pane .wholesale.table .tr.heading {
+    font-weight: 600;
+}
+.component.results .expander.expanded .pane .wholesale.table .tr {
+    display: table;
+    width: 100%;
+}
+.component.results .expander.expanded .pane .wholesale.table .td {
+    vertical-align: top;
+    display: table-cell;
+    padding: 5px;
+}
+.component.results .expander.expanded .pane .wholesale.table .td:first-child {
+    text-align: left;
+    padding-left: 8px;
+}
+.component.results .expander.expanded .pane .wholesale.table .td:last-child {
+    text-align: right;
+    padding-right: 8px;
+}
+.component.results .expander.expanded .pane .wholesale.table .tr:nth-child(even) {
+    background: #E8E4E5;
+    color: #000;
+}
+.component.results .expander.expanded .pane .wholesale.table .tr.divider {
+    background: #383838;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 6px;
+}
+.component.results .left .footnotes {
+    font-size: 14px;
+}
+.component.results .left .footer-container ul.body-warnings {
+    list-style: none;
+    margin: 0;
+}
+.component.results .left .footer-container ul.body-warnings li:before {
+    display: none;
+}
+.component.results .left .footer-container ul.body-warnings li img {
+    margin-right: 5px;
+}
+.component.results .left .footer-container ul.body-warnings li strong {
+    position: relative;
+    top: -5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .component.results section.title {
+        padding: 10px;
+    }
+    .component.results section.title h2 {
+        font-size: 16px;
+    }
+    .component.results section.title .item {
+        font-size: 16px;
+    }
+    .component.results .left {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .component.results .right {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .component.results .expander .handle .left {
+        width: 100%;
+        display: table;
+    }
+    .component.results .expander .handle .right {
+        width: 100%;
+        display: table;
+    }
+    .component.results .expander > .handle .right > .inner {
+        position: initial;
+    }
+    .component.results .expander > .handle .right .content {
+        padding: 0 30px 0 0;
+    }
+    .component.results .expander .pane {
+        padding: 10px 0;
+    }
+    .component.results .expander .pane .tabs .tab {
+        width: 50%;    
+        padding: 10px;
+    }
+    .component.results .expander.expanded .pane .TabUI .tab-content.active {
+        padding: 10px;
+    }
+    .component.results .expander .pane .TabUI .tab-content .item {
+        padding: 10px 10px 10px 0;
+    }
+    section.strength {
+        padding: 10px;
+    }
+    section.wholesale-info {
+        padding: 10px;
+    }
+    .component.results .expander .handle {
+        padding: 10px;
+        position: relative;
+    }
+    .component.results .expander .pane .heading h4 {
+        padding: 0 10px;
+    }
+    .component.results .expander .pane .characteristics {
+        padding: 0 10px;
+    }
+    .component.results .wholesale-info .expander > .handle .button {
+        right: 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+   .product_detail_con .component .row .col-24-24.col24-md-16 {
+        padding-right: 50px;
+    } 
+}
+

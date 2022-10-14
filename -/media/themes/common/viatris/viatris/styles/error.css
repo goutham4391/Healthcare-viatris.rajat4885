@@ -1,0 +1,26 @@
+.error-page .field-headline {
+    margin-bottom: 10px;
+}
+.error-page .field-intro-copy, .error-page .field-search {
+    margin-bottom: 30px;
+}
+.error-page .field-intro-copy {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.42;
+}
+@media only screen and (min-width: 768px) {
+    .error-page .field-headline, .error-page .field-intro-copy {
+        margin-bottom: 30px;
+    }
+    .error-page .field-intro-copy {
+        margin-bottom: 50px;
+    }
+    .error-page .field-search {
+        margin-bottom: 42px;
+    }
+    .error-page .field-intro-copy {
+        font-size: 36px;
+        line-height: 1.33;
+    }
+}

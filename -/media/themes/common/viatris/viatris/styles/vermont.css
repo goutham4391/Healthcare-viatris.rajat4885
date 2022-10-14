@@ -1,0 +1,48 @@
+/*------------------ vtprescribers ---------------------*/
+
+.vermont_page .component#vermont_head {
+    padding-bottom: 0;
+}
+.vermont_page #vermont_head h1.field-headline {
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    color: #2a276e;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.vermont_page #vermont_head .field-image {
+    margin: 0;
+}
+.vermont_page #vermont_head .field-body-copy {
+    margin: 0;
+}
+.vermont_page #vermont_head .field-highlight-text {
+    margin: 0;
+}
+.vermont_page h2.field-headline {
+    text-transform: uppercase;
+    /*font-weight: 700;
+    color: #5b5b5b;
+    font-size: 24px;*/
+}
+/*.vermont_page p {
+    color: #5b5b5b;
+}*/
+@media (min-width: 768px){
+    .vermont_page #vermont_head h1.field-headline {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+    .vermont_page .field-teaser-copy {
+        margin-top: 0;
+    }
+    .vermont_page .field-teaser-copy p.cta-link.field-cta:first-child {
+        margin-top: 0;
+    }
+}
+@media (min-width: 993px){
+    .vermont_page #vermont_head h1.field-headline {
+        margin-top: 80px;
+    }
+}

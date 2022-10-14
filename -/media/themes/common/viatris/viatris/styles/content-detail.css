@@ -1,0 +1,81 @@
+.content-detail .field-headline {
+    /*font-weight: 600;*/
+}
+.content-detail .field-headline, .content-detail .field-image, .content-detail .field-summary {
+    margin-bottom: 30px;
+}
+.content-detail .field-summary {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.67;
+}
+.content-detail .field-subheadline {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.67;
+}
+.pull-quote {
+    background-color: #f5da4e;
+    font-size: 32px;
+    padding: 30px 42px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.pull-quote .quote-headline {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    margin-top: 15px;
+}
+.pull-quote .quote-copy {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.43;
+}
+.content-detail h2.field-headline{
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+    .content-detail .field-headline, .content-detail .field-image, .content-detail .field-summary {
+        margin-bottom: 50px;
+    }
+    .content-detail h2.field-headline{
+        margin-bottom: 30px;
+    }
+    .content-detail .field-summary {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.6;
+    }
+    .content-detail .field-subheadline {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.7;
+    }
+
+    .content-detail .container {
+        /*padding: 0 50px;*/
+    }
+    
+    .pull-quote {
+        font-size: 36px;
+        margin: 20px 0 20px 20px;
+        padding: 73px 48px;
+        padding-right: calc(50vw - 50%);
+        position: relative;
+        width: 50vw;
+        margin-right: calc(50% - 50vw + 10px);
+    }
+    .pull-quote .quote-headline {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.55;
+        margin-top: 20px;
+    }
+    .pull-quote .quote-copy {
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 1.41;
+    }    
+}

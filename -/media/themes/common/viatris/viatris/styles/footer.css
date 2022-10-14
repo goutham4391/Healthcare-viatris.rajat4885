@@ -1,0 +1,166 @@
+footer {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.71;
+}
+footer .sub-menu li, footer a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+footer .social-links li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.88;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0 29px;
+    margin: 0;
+}
+footer li {
+    margin-bottom: 15px;
+}
+
+footer .social-links li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+footer .social-links li:first-child {
+    margin-left: 0;
+}
+footer .social-links .facebook {
+    content: ' ';
+    display: inline-block;
+    background: url('../images/facebook.svg') no-repeat;
+    background-size: contain;
+    width: 9px;
+    height: 18px;
+}
+footer .social-links .linkedin {
+    content: ' ';
+    display: inline-block;
+    background: url('../images/linkedin.svg') no-repeat;
+    background-size: contain;
+    width: 17px;
+    height: 16px;
+}
+footer .social-links .youtube {
+    content: ' ';
+    display: inline-block;
+    background: url('../images/youtube.svg') no-repeat;
+    background-size: contain;
+    width: 29px;
+    height: 21px;
+}
+footer .social-links .twitter {
+    content: ' ';
+    display: inline-block;
+    background: url('../images/twitter.svg') no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 21px;
+}
+/* .scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+} */
+.scroll-top {
+    fill: #fff;
+    text-align: right;
+}
+.scroll-top:hover svg circle {
+    fill: #f1ecf6;
+}
+.scroll-top svg path {
+    fill: #703e97;
+}
+.copyright-section{
+    padding:0 29px;
+}
+.copyright-section [class*=col-] {
+    margin: 10px 0 0;
+}
+.copyright-section{
+    position: relative;
+}
+.scroll-top{
+    /*position: absolute;
+    bottom: 50px;
+    right: 29px;*/
+}
+/*------------- Corporate Logo -------------*/
+.corporate_logo {    
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.corporate_logo p {
+    margin-bottom: 1px;
+}
+.corporate_logo a > img {
+    max-height: 50px;
+    max-width: 190px;
+}
+@media only screen and (min-width: 768px) {
+    footer .sub-menu {
+        float: left;
+        margin-right: 8%;
+    }
+    footer ul{
+        padding:0;
+    }
+    .copyright-section{
+        padding:0;
+    }
+    .scroll-top{
+        position: inherit;
+        bottom: auto;
+        right: auto;
+    }   
+    footer .social-links li {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 2.14;
+    }    
+    footer .social-links a{
+        margin-top: 5px;
+    }
+    .field-footer-link{
+        min-height: 50px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    footer .social-links li{
+        margin-top: 20px;
+    }
+    .corporate_logo {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .corporate_logo {
+        padding: 0 29px;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    footer .social-links{
+        float: right;
+    }
+    .corporate_logo {
+        float: right;
+    }
+}

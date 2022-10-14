@@ -1,0 +1,31 @@
+.ct-info .field-source {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: normal;    
+}
+.ct-info h2, .ct-info div {
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+}
+.field-body-copy {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+@media only screen and (min-width: 768px) {
+    .ct-info .field-source {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.88;
+    }
+    .ct-info [class*="col-"] {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .field-body-copy {
+        font-size: 20px;
+    }
+}

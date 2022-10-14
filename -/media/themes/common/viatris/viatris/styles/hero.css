@@ -1,0 +1,108 @@
+.hero-image .field-image img, .half-column-image .field-image img {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+}
+.banner-content .field-dropdown {
+    margin-top: 30px;
+}
+.hero-6 {
+    min-height: 141px;
+}
+@media only screen and (min-width: 768px) {
+    .hero-image .field-image img, .half-column-image .field-image img {
+        min-height: 725px;
+    }
+    .hero-content {
+        position: absolute;
+        /* bottom: 50px; */
+        top: 50%;
+       transform: translateY(-50%);
+    }
+    .hero {
+        color: #FFFFFF;
+    }
+    .hero.half-top-image {
+        color: #000000;
+    }
+    .hero .cta-primary a {
+        background-color: transparent;
+        border: 2px solid #FFFFFF;
+    }
+    .hero .cta-primary:hover a {
+        background-color: transparent;
+        border: 2px solid #dccfe5;
+        color: #dccfe5;
+    }
+    .banner-content .field-dropdown {
+        margin-top: 50px;
+    }
+    .hero-6 {
+        min-height: 400px;
+    }
+}
+
+@media (min-width:768px) {
+    .hero-content {
+        margin-left: calc(50vw - 360px);
+    }
+    .home-img .hero-content{
+        z-index: 3;
+    }
+}
+@media (min-width:992px) {
+    .hero-content {
+        margin-left: calc(50vw - 363px);
+        max-width: 726px;
+
+    }
+}
+@media (min-width:1025px) {
+    .hero-content {
+        margin-left: calc(50vw - 480px);
+    }
+}
+@media (min-width:1200px) {
+    .hero-content {
+        /*margin-left: calc(50vw - 570px);*/
+        margin-left: calc(50vw - 493px);
+        max-width: 1024px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*.component.hero#home-only .hero-content {
+        margin-left: calc(50vw - 540px);
+    }*/
+}
+@media (min-width:1366px) {
+    .hero-content {
+        margin-left: calc(50vw - 537px);
+    }
+} 
+@media (min-width:1440px) {
+    .hero-content {
+        margin-left: calc(50vw - 580px);
+    }
+}
+@media (min-width:1680px) {
+    .hero-content {
+        margin-left: calc(50vw - 585px);
+    }
+}
+/* h1.field-headline {
+    font-size: 4vw;
+}
+@media (max-width:768px) {
+    h1.field-headline {
+        font-size: 36px;
+    }
+}
+@media (min-width:1650px) {
+    h1.field-headline {
+        font-size: 66px;
+    }
+} */

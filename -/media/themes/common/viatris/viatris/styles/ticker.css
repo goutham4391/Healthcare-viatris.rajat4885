@@ -1,0 +1,36 @@
+.ct-ticker {
+	background: url("../images/Base.png") no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+  	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	color: #FFFFFF;
+}
+.ct-ticker .container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left:21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+}
+.stock-date {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 2.8;
+}
+.stock-price {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.37;
+}
+.stock-change {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.25;
+}
+@media only screen and (min-width: 768px) {
+    .ct-ticker .container {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}

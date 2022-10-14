@@ -1,0 +1,51 @@
+.faq-qa {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #707070;
+}
+.faq-qa .field-answer {
+    margin-top: 2.5em;
+}
+.faq-qa .field-question {
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+}
+.country_page .faq-qa .field-question{
+    font-size: 18px;
+}
+.faq-qa .field-answer {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+}
+@media only screen and (min-width: 768px) {
+    .faq-qa {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .faq-qa .field-answer {
+        margin-top: 1em;
+    }         
+}
+@media only screen and (min-width: 1200px) {
+    .faq-qa .field-question {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.7;
+    }
+    .faq-qa .field-answer {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .country_page .faq-qa .field-question{
+        font-size: 20px;
+    }
+
+}

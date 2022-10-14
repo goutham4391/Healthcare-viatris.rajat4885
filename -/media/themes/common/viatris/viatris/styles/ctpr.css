@@ -1,0 +1,49 @@
+.sub-pr .field-headline {
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+.ct-pr .sub-pr {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.press-releases .search-row {
+    margin-top: 20px;
+}
+.press-releases .field-search, .press-releases .filter-row {
+    margin-top: 30px;
+}
+.press-releases .sub-pr {
+    margin-top: 60px;
+}
+.filter-row .filter-btn {
+    margin-top: 18px;
+}
+.ct-pr .field-location-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ct-pr .field-location-subtitle{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ct-pr .field-location-details p{
+    margin-top: 0;
+}
+@media only screen and (min-width: 768px) {
+    .filter-row .filter-btn {
+        margin-top: 0;
+    }
+    
+    .press-releases .pr-row {
+        margin-top: 60px;
+    }
+    .ct-pr .field-location-name{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .ct-pr .field-location-subtitle{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

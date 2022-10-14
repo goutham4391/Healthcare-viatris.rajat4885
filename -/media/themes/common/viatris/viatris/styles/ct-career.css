@@ -1,0 +1,543 @@
+.component.alert-ribbon .field-alert p {
+    line-height: 1.5;
+    margin: 0;
+}
+.career-detail {
+	display: none;
+}
+.career-image {
+	padding: 0;
+}
+.career-image {
+	padding-left: 0.5px;
+	padding-right: 0.5px;
+}
+/* .ct-career .field-cta {
+	margin-top: 30px;
+} */
+.career-image .field-image img { 
+	min-height: 227px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+}
+.component.alert-ribbon {
+    padding: 18px 0 22px;
+}
+.component.alert-ribbon .container {
+    /*max-width: 1300px;*/
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.component.hero.half-column-image#career .bg-gradient .align-self-end {
+    align-self: flex-start !important;
+}
+.component.hero.half-column-image#career .banner-content {
+    padding-bottom: 0;
+}
+/*.component.hero.half-column-image#career .bg-gradient .banner-content h1.field-headline {
+    margin-top: 85px;
+}*/
+.component.hero.half-column-image#career .banner-content .form-field {
+    margin-top: 60px;
+}
+#careersDropdown {
+    position: relative;
+    z-index: 9;
+}
+#careersDropdown .component.link-list {
+    padding-bottom: 0;
+    padding-top: 35px;
+    width: 70%;
+    float: left;
+}
+#careersDropdown .component-gobutton {
+    float: left;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#hero-dropDown {
+    background: #fff;
+    color: #703e97;
+    height: 64px;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#hero-dropDown:hover {
+    color: #5c208a;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #b353c6 0%, #ffffff 0%, #e5e5e5 44%, #dbdbdb 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#b353c6 0%,#ffffff 0%,#e5e5e5 44%,#dbdbdb 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#b353c6 0%,#ffffff 0%,#e5e5e5 44%,#dbdbdb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb',GradientType=0 );
+}
+#careersDropdown .component.link-list .component-content {
+    position: relative;
+}
+#careersDropdown .component.link-list .component-content h3 {
+    background: #fff;
+    color: #000;
+    height: 65px;
+    width: 100%;
+    padding: 15px 45px 15px 20px;
+    font-size: 17px;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    border-bottom: 3px solid #8F00FF;
+    -ms-word-break: normal;
+    word-break: normal;
+    position: relative;
+}
+#careersDropdown .component.link-list .component-content h3:after {
+	content: url(../images/dropdown.svg);
+    font: 20px "OpenSans";
+    color: #703e97;
+    right: 20px;
+    top: 18px;
+    position: absolute;
+}
+#careersDropdown .component.link-list .component-content ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 65px;
+    margin: 0;    
+    border-bottom: 3px solid #8E04FF;
+    -webkit-box-shadow: 0px 12px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 12px 14px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 12px 14px 1px rgba(0,0,0,0.75);
+    z-index: 1;
+    padding: 0 0 10px;
+    max-height: 155px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#careersDropdown .component.link-list .component-content ul li {
+    padding: 0;
+    margin: 0
+}
+#careersDropdown .component.link-list .component-content ul li:before {
+	display: none;
+}
+#careersDropdown .component.link-list .component-content ul li a {
+    display: block;
+    padding: 3px 20px 3px;
+}
+#careersDropdown .component.link-list .component-content ul li.cselected a {
+    background-color: #1e90ff;
+    color: #FFFFFF;
+}
+#careersDropdown .component.link-list .component-content ul li a:hover {
+    background-color: #1e90ff;
+    color: #FFFFFF;
+}
+.component.sub-video#four-callouts .col24-24.col24-md-6.sub-news:nth-child(-n+4) {
+    margin-bottom: 40px;
+}
+.component.sub-video#four-callouts .col24-24.col24-md-6.sub-news h5 {
+    padding-top: 15px;
+}
+.component.sub-video#four-callouts .col24-24.col24-md-6.sub-news p.truncate-4.field-teaser-copy {
+    margin-top: 10px;
+    -webkit-line-clamp: initial;
+    -webkit-box-orient: initial;
+    overflow: visible;
+}
+.component.Content-Teaser#careers_EqualOppurtunityEmployer .component-content .container .row .field-teaser-copy {
+    margin-top: 0;
+}
+.component.Content-Teaser#careers_EqualOppurtunityEmployer .component-content .container .row .field-data-link {
+    padding-top: 0;
+}
+.component.Content-Teaser#careers_EqualOppurtunityEmployer .component-content .container .row .field-data-link:last-child {
+    padding-bottom: 0;
+}
+.component.column-splitter .container-fluid.container-clean-background .row {
+    /*max-width: 1152px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+.component.column-splitter #column-splitter-half h1.field-headline {
+    margin: 0;
+    padding: 0;
+}
+.component.column-splitter #column-splitter-half h1 a{    
+    font-weight: 600;
+}
+.component.column-splitter #column-splitter-half .field-image {
+    margin: 0;
+}
+.component.column-splitter #column-splitter-half .field-body-copy {
+    margin: 0;
+    line-height: 1;
+}
+.component.column-splitter #column-splitter-half .field-highlight-text {
+    margin: 0;
+}
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris h2.field-headline,
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy,
+.component.content-detail.Content-Teaser#below-hero-diversity-and-inclusion h2.field-headline,
+.component.content-detail.Content-Teaser#below-hero-diversity-and-inclusion .field-body-copy {
+    margin: 0;
+}
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy p:first-child,
+.component.content-detail.Content-Teaser#below-hero-diversity-and-inclusion .field-body-copy p:first-child {
+    margin: 0;
+}
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy h2,
+.component.content-detail.Content-Teaser#below-hero-diversity-and-inclusion .field-body-copy h2 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.33;
+    letter-spacing: normal;
+    margin-top: 45px;
+}
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy ul.col24-md-12 {
+    margin: 15px 0 0;
+    padding: 0 90px 0 30px;
+}
+.component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy ul.col24-md-12 li {
+    margin-top: 20px;
+}
+.component.content-detail.Content-Teaser#viatris-around-the-world h2.field-headline {
+    margin: 0;
+}
+.component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy {
+    margin: 0;
+}
+.component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy .row {
+    margin-top: 12px;
+}
+.component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy .row ul {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 2.5em;
+    -moz-column-gap: 2.5em;
+    column-gap: 2.5em;
+}
+.component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy .row ul li {
+    margin-top: 15px;
+    display: inline-block;
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 210px;
+}
+.drop-down-wrapper .col24-24 {
+    float: right;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 16.666667%;
+    padding: 0;
+}
+.drop-down-wrapper .component-gobutton #hero-dropDown {
+    background: #703e97;
+    color: #fff;
+}
+.drop-down-wrapper .component-gobutton #hero-dropDown:hover {
+    background-color: #b791c9;
+}
+.drop-down-wrapper h3 {
+    border-top: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+.inner-content .col24-md-8{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.inner-content.row{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+/*--------------------------- Setting Image Aspect Ratio ---------------------------*/
+.dynamicAspect {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+.dynamicAspect::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+}
+.dynamicAspect > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+/*.hero-image .dynamicAspect.field-image > img {
+    min-height: 650px;
+}
+.hero-image .dynamicAspect::before {
+    padding-top: 51.25%;
+}*/
+.span-divder.field-gradient-image {
+    z-index: 1;
+}
+/*--------------------------- end ---------------------------*/
+/*--------------------------- Setting Image Aspect Ratio For Half Hero Image---------------------------*/
+.dynamicAspectMobile {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    min-height: 725px;
+}
+.dynamicAspectMobile::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.dynamicAspectMobile > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.half-column-image .dynamicAspectMobile.field-image img {
+    min-height: initial;
+    height: 100%;
+}
+
+/*--------------------------- end ---------------------------*/
+.seperator_generic h2.field-headline {
+    position: relative;
+    padding-bottom: 30px;
+}
+.seperator_generic h2.field-headline::after {
+    content: '';
+    background: #8F00FF 0% 0% no-repeat padding-box;
+    width: 78px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {	
+	.ct-career .career-images {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    #careersDropdown .component.link-list .component-content h3 {
+        padding: 12px 30px 12px 10px;
+        font-size: 18px;    
+        height: 55px;
+    }
+    #careersDropdown  .component.link-list .component-content h3:after {
+        right: 10px;
+        top: 12px;
+    }
+    #careersDropdown .component.link-list .component-content ul {
+        top: 55px;
+    }
+    #hero-dropDown {
+        height: 50px;
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #careersDropdown .component.link-list,
+    #careersDropdown .component-gobutton {
+        padding-top: 5px;
+    }
+    .drop-down-wrapper .col24-24 {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 767px) {
+   /* .component.hero.half-column-image#career .bg-gradient .banner-content h1.field-headline {
+        margin-top: 30px;
+    }*/
+    .component.column-splitter #column-splitter-half {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 15px 0 10px;
+    }
+    #careersDropdown .component.link-list {
+        padding-bottom: 15px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    #careersDropdown .component-gobutton {
+        padding-left: 0;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .drop-down-wrapper .col24-24 {
+        float: none;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: 0;
+        padding-top: 0;
+    }
+    /*--------------------------- Setting Image Aspect Ratio ---------------------------*/
+    .dynamicAspectMobile {
+        min-height: initial;
+    }
+    .dynamicAspectMobile::before {
+        content: '';
+        display: block;
+        padding-top: 56.25%;
+    }
+    .half-column-image .dynamicAspect.field-image img  {
+        min-height: initial;
+    }
+    .hero-image .dynamicAspect.field-image > img {
+        min-height: 200px;
+    }
+/*--------------------------- end ---------------------------*/
+    .component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy .row ul {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+    .component.content-detail.Content-Teaser#viatris-around-the-world .field-body-copy .row ul li {
+        margin-top: 15px;
+        display: inline-block;
+        -webkit-column-width: 200px;
+        -moz-column-width: 200px;
+        column-width: 210px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body.patientAssistance #careersDropdown .component.link-list .component-content h3 {
+        font-size: 14px;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .career-image .field-image img {
+        min-height: 450px;
+    }
+    .seperator_generic h2.field-headline {
+        padding-bottom: 30px;
+    }
+    body.patientAssistance .location-details .callouts:nth-child(odd) {
+        padding-left: 10%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .component.alert-ribbon .container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media only screen and (min-width: 1200px) {	
+	.ct-career .career-header {
+		width: 27%;
+	}
+    /*.ct-career .career-header .field-cta a{
+        padding:12px 6px;
+    }*/
+	.ct-career .career-images {
+		width: 65%;
+	}
+	.ct-career .field-headline {
+		margin-top: 10%;
+	}
+	.career-image {
+		padding-left: 2.5px;
+		padding-right: 2.5px;
+	}
+
+	.career-detail {
+		display: block;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+    	padding: 1em .5em;
+    	position: absolute;
+    	bottom: 25px;
+    	left: 0;
+		transform: translate(0%, 100%);
+		/*max-width: 255px;
+		min-width: 255px;*/
+        width: 90%;
+		min-height: 100px;
+	}
+
+	.field-career-area {
+		font-size: 20px;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.42;
+		letter-spacing: normal;
+		text-align: left;
+		color: #000000;
+	}
+
+	.field-career-detail {
+		font-size: 14px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.88;
+		letter-spacing: normal;
+		text-align: left;
+		color: #000000;
+	}
+    .component.content-detail.Content-Teaser#below-hero-working-at-viatris .field-body-copy h2,
+    .component.content-detail.Content-Teaser#below-hero-diversity-and-inclusion .field-body-copy h2{
+        font-size: 36px;
+    }
+    .seperator_generic h2.field-headline {
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .component.column-splitter #column-splitter-half{
+        max-width: 50%;
+    }
+    body.patientAssistance #careersDropdown .component.link-list .component-content h3 {
+        font-size: 15px;
+        line-height: 1.1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+	.field-career-area {
+		font-size: 20px;
+	}
+	
+	.career-detail{
+		transform: translate(0%, 0%);
+	}
+
+	.field-career-detail {
+		font-size: 18px;
+	}
+    #careersDropdown .component.link-list .component-content h3 {
+        font-size: 20px;
+    }
+    #hero-dropDown{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1366px) {
+    .ct-career .career-images {
+        width: 70%;
+    }
+}

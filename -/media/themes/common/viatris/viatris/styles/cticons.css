@@ -1,0 +1,39 @@
+.ct-icons .field-subheadline {
+    margin-top: 15px;
+}
+.ct-icons .field-teaser-copy {
+    /*display: none;*/
+}
+.ct-icons .field-icon img {
+    width: auto;
+    height: 72px;
+}
+.ct-icons .row {
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .ct-icons .field-subheadline {
+        margin-top: 20px;
+    }
+    .ct-icons .field-teaser-copy {
+        display: block;
+        margin-top: 20px;
+    }
+    .ct-icons .field-icon img {
+        width: auto;
+        height: 85px;
+    }
+    .ct-icons .row {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sub-icons [class*="col"] {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sub-icons .row {
+        margin-top: -30px;
+        margin-bottom: -30px;
+    }
+}

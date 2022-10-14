@@ -1,0 +1,110 @@
+.field-date, .field-time {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.57;
+    letter-spacing: normal;
+}
+.field-location {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: normal;    
+}
+.field-event-title {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #6f4096;
+}
+.field-event-description {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+}
+.event-item {
+    padding-top: 21px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #707070;
+}
+/* .event-item:first-child {
+    padding-top: 0;
+} */
+.event-item:last-child {
+    margin-bottom: 22px;
+    border-bottom: none;
+}
+.event-item .field-event-title {
+    margin-top: 15px;
+}
+.event-item .field-event-description {
+    margin-top: 10px;
+}
+.event-item .field-event-description {
+    position: relative;
+    max-height: calc(1.67 * 4);
+    overflow: hidden;
+}
+.event-item .field-event-description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+}
+.ct-events .field-headline {
+    margin-top: 0;
+}
+.sub-past-event .field-data-link a {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.88;
+}
+.sub-past-event .field-data-link .document-icon {
+    width: 17px;
+    height: 21px;
+}
+.sub-past-event .field-data-link .link-icon {
+    width: 21.5px;
+    height: 20.8px;
+}
+@media only screen and (min-width: 768px) {
+    .field-date, .field-time, .field-location {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: normal;    
+    }
+    .field-event-title {
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1.33;
+        letter-spacing: normal;    
+    }
+    .field-event-description {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.7;
+        letter-spacing: normal;
+    }
+    .event-item {
+        /* padding-top: 66px; */
+        padding-bottom: 60px;
+    }
+    .event-item:first-child {
+        padding-top: 0;
+    }
+    .event-item:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .event-item .field-event-description {
+        position: relative;
+        max-height: calc(1.7 * 4);
+        overflow: hidden;
+    }
+}
+.past-events .sub-past-event:not(:last-child), .upcoming-events .sub-upcoming-event:not(:last-child) {
+    border-bottom: 1px solid #000000;
+}
